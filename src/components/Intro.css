@@ -1,0 +1,39 @@
+/* src/components/Intro.css */
+.intro-section {
+    min-height: 100vh; /* Ensure the section takes full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: none; /* Keep this gradient for the intro section */
+    color: rgba(255, 255, 255, 0.877); /* Set text color to white for better contrast */
+}
+
+.intro-content {
+    max-width: 600px;
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.intro-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333; /* Dark background for the button */
+    color: white; /* Text color for the button */
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+.btn:hover {
+    background-color: #00c6ff; /* Darker shade on hover */
+}

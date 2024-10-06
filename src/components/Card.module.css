@@ -1,0 +1,16 @@
+.card {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+    overflow: hidden; /* Ensures content stays within the card */
+}
+
+.cardImage {
+    width: 100%; /* Makes the image take the full width of the card */
+    height: auto; /* Maintains the aspect ratio */
+}
