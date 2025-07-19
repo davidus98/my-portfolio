@@ -14,7 +14,7 @@ function Intro() {
           hi, <span className="highlight">David</span> here.
           <span>
             <Typewriter
-              words={['']}
+              words={['software engineer', 'full-stack developer']}
               loop={0} // Set loop to 0 for infinite typing
               cursor
               cursorStyle="|"
