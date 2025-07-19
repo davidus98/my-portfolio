@@ -4,7 +4,7 @@ import styles from './About.module.css'
 
 function About() {
   return (
-    <section id="about" className='about' style={styles}>
+    <section id="about" className={styles.about}>
       <h1>/ about me</h1>
       <p>
         Hi, I'm  David, a software engineer currently working at Tracknamic. Currently learning React.js. Here are some technologies I have been working with:
