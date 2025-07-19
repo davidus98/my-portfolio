@@ -13,8 +13,9 @@
     position: absolute;
     background: white; /* Star color */
     border-radius: 50%; /* Make them circular */
-    animation: twinkle 1.5s infinite; /* Animation for twinkling */
-    animation: move 10s linear infinite; /* Animation for moving */
+    width: 2px;
+    height: 2px;
+    animation: twinkle 1.5s infinite, move 10s linear infinite; /* Combined animations */
 }
 
 /* Position the stars randomly and give them random sizes */
